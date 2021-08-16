@@ -1,0 +1,109 @@
+* {
+    font-family: "Teko", italic;
+    box-sizing: border-box !important;
+    margin: 0;
+}
+
+header {
+    margin-left: 33%;
+    color: black;
+    font-size: 70px;
+    margin-top: 5%;
+}
+
+h2 {
+    color: black;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-left: 44%;
+}
+
+#main-container {
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: bottom 15px;
+}
+
+.main {
+    padding: 20px;
+    border: transparent 1px rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0;
+    background: linear-gradien (white);
+    opacity: 0.7;
+}
+
+.main:hover {
+    box-shadow: 0 0 20px 0 white;
+}
+
+
+/* pictures styles */
+
+img {
+    object-fit: contain;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 7px;
+    height: 200px;
+    width: 100%;
+}
+
+
+/* title of news */
+
+.title {
+    font-size: 24px;
+    color: black;
+    font-weight: italic;
+}
+
+
+/* body tag */
+
+body {
+    background: papayawhip;
+}
+
+
+/* button styles */
+
+#btnMore {
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-radius: 15px;
+    text-shadow: 1px 1px steelblue;
+    border: transparent;
+    background: linear-gradient(white, slateblue);
+    box-shadow: 0 0 15px 0;
+}
+
+
+/* button hover */
+
+#btn:hover {
+    box-shadow: 0 0 10px 0 black;
+}
+
+div ul li {
+    list-style: none;
+    padding: 20px;
+    margin-left: 44%;
+    font-size: 25px;
+    font: weight 90px;
+}
+
+div ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div ul li.active a {
+    color: #1565c0;
+}
