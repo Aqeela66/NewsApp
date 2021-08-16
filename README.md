@@ -30,7 +30,7 @@ This is a News App that displays news titles and details fetched by an API.
    
    ###### Live Link
    
-    https://aqeela66.github.io/NewsApp/
+   https://aqeela66.github.io/NewsApp/
    
    
    
