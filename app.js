@@ -1,4 +1,4 @@
-fetch('https://newsapi.org/v2/everything?q=tesla&apiKey=de76ddd2976543a2ac1de4afec60bba8').then(function(response) {
+fetch('https://newsapi.org/v2/everything?q=tesla&from=2021-08-10&sortBy=publishedAt&apiKey=de76ddd2976543a2ac1de4afec60bba8').then(function(response) {
         console.log(response, 'Response');
         return response.json();
     }).then(newsData)
