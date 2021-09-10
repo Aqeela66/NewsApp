@@ -44,3 +44,10 @@ xhr.onload = function () {
 }
 
 xhr.send()
+
+
+$(function(){
+  $(".post-module").hover(function(){
+    $(".description").stop().animate({'height':'toggle'},300);
+  });
+});
